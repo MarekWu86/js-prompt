@@ -1,6 +1,6 @@
-function getTheNumber() {
-var userNumber = prompt("Type your number");
-console.log("Your number is " + userNumber + ".");
-}
+let userNumber = prompt("Type your number");
 
-getTheNumber()
+function getTheNumber(a) {
+console.log(a);
+}
+getTheNumber(userNumber);
